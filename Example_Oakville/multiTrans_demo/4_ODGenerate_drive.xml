@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-24 02:00:44.957314 by route2OD.py v1_19_0+0000-baa66a0f364
+<configuration>
+    <route-file value="3_drive.odtrips.xml"/>
+    <taz-files value="2_TAZ.xml"/>
+    <output-file value="4_ODGenerate_drive.xml"/>
+</configuration>
+-->
+
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    <interval id="DEFAULT_VEHTYPE" begin="0" end="10800.74">
+        <tazRelation from="L6H" to="L6H" count="44"/>
+        <tazRelation from="L6H" to="L6J" count="12029"/>
+        <tazRelation from="L6H" to="L6K" count="49"/>
+        <tazRelation from="L6H" to="L6L" count="4"/>
+        <tazRelation from="L6H" to="L6M" count="8"/>
+        <tazRelation from="L6J" to="L6H" count="13579"/>
+        <tazRelation from="L6J" to="L6J" count="13216"/>
+        <tazRelation from="L6J" to="L6K" count="23652"/>
+        <tazRelation from="L6J" to="L6L" count="2993"/>
+        <tazRelation from="L6J" to="L6M" count="3687"/>
+        <tazRelation from="L6K" to="L6H" count="77"/>
+        <tazRelation from="L6K" to="L6J" count="30513"/>
+        <tazRelation from="L6K" to="L6K" count="48"/>
+        <tazRelation from="L6K" to="L6L" count="2"/>
+        <tazRelation from="L6K" to="L6M" count="5"/>
+        <tazRelation from="L6L" to="L6H" count="7"/>
+        <tazRelation from="L6L" to="L6J" count="3318"/>
+        <tazRelation from="L6L" to="L6K" count="7"/>
+        <tazRelation from="L6M" to="L6H" count="1"/>
+        <tazRelation from="L6M" to="L6J" count="3915"/>
+        <tazRelation from="L6M" to="L6K" count="8"/>
+    </interval>
+</data>
